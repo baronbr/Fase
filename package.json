@@ -1,0 +1,26 @@
+{
+  "name": "images",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"><img align=\"center\" width=\"300\" src=\"logo.png\" alt=\"DjangoX logo\"></h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch static/sass -o static/css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsvincent/djangox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wsvincent/djangox/issues"
+  },
+  "homepage": "https://github.com/wsvincent/djangox#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "gulp-sass-glob": "^1.1.0"
+  }
+}
